@@ -7,7 +7,7 @@ class General {
     Colors.pink.shade100.withGreen(30).withRed(10).withOpacity(0.3),
     Colors.indigo.shade100.withGreen(30).withOpacity(0.3)
   ], begin: Alignment.topCenter, end: Alignment.bottomCenter);
-  final heading = GoogleFonts.roboto(fontSize: 40, color: Colors.white);
+  final heading = GoogleFonts.roboto(fontSize: 30, color: Colors.white);
   final cardHeading = GoogleFonts.roboto(fontSize: 25, color: Colors.black);
   final subHeading = GoogleFonts.roboto(fontSize: 16, color: Colors.black);
 }

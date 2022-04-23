@@ -82,7 +82,7 @@ class _MobileWelcomeState extends State<MobileWelcome>
                       padding: const EdgeInsets.all(8.0),
                       child: SizedBox(
                         width: width / 2.5,
-                        height: height / 2,
+                        height: height / 2.5,
                         child: Image.asset(
                           'Assets/images/img1.png',
                           fit: BoxFit.fill,
@@ -96,9 +96,7 @@ class _MobileWelcomeState extends State<MobileWelcome>
                 ),
                 Align(
                     alignment: Alignment.centerLeft,
-                    child: Text('Key Features',
-                        style: GoogleFonts.roboto(
-                            fontSize: 40, color: Colors.white))),
+                    child: Text('Key Features', style: _general.heading)),
                 SizedBox(
                   height: 20,
                 ),
@@ -155,6 +153,73 @@ class _MobileWelcomeState extends State<MobileWelcome>
                                   height: height / 3,
                                   child: Image.asset(
                                     'Assets/images/img1.png',
+                                    fit: BoxFit.fill,
+                                  ),
+                                )
+                              ],
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Card(
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15)),
+                  elevation: 10,
+                  child: Container(
+                    width: width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        gradient: _general.backgroundColor),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Courses',
+                              style: _general.cardHeading,
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'The handful picked best courses present on the internet are provided in this section.',
+                                            style: _general.subHeading,
+                                          ),
+                                        )),
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Each specialization has certain number of courses and for each course a small description along with the link to the course is provided.',
+                                            style: _general.subHeading,
+                                          ),
+                                        ))
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: width / 3,
+                                  height: height / 3,
+                                  child: Image.asset(
+                                    'Assets/images/img2.png',
                                     fit: BoxFit.fill,
                                   ),
                                 )
