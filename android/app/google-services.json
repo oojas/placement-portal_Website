@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641060595132",
+    "project_id": "crack-placements",
+    "storage_bucket": "crack-placements.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641060595132:android:1fe65f8335e70196abb7b9",
+        "android_client_info": {
+          "package_name": "com.example.crackplacements"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641060595132-gjk17hg4dh3ce0o15f81aquh5fifn407.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWZ3_hGk75GVpJjH9-31-Huq2LZEFU_Wc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641060595132-gjk17hg4dh3ce0o15f81aquh5fifn407.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

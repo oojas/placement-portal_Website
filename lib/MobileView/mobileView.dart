@@ -84,7 +84,7 @@ class _MobileWelcomeState extends State<MobileWelcome>
                         width: width / 2.5,
                         height: height / 2.5,
                         child: Image.asset(
-                          'Assets/images/img1.png',
+                          'Assets/images/img3.png',
                           fit: BoxFit.fill,
                         ),
                       ),
@@ -230,7 +230,208 @@ class _MobileWelcomeState extends State<MobileWelcome>
                       ),
                     ),
                   ),
-                )
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Card(
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15)),
+                  elevation: 10,
+                  child: Container(
+                    width: width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        gradient: _general.backgroundColor),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Ambassador Program',
+                              style: _general.cardHeading,
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Big tech companies offer ambassador positions to engineering grads.',
+                                            style: _general.subHeading,
+                                          ),
+                                        )),
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'This helps students in building communities, learning,getting exciting goodies and making an impact on tech world.',
+                                            style: _general.subHeading,
+                                          ),
+                                        ))
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: width / 3,
+                                  height: height / 3,
+                                  child: Image.asset(
+                                    'Assets/images/img4.png',
+                                    fit: BoxFit.fill,
+                                  ),
+                                )
+                              ],
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Card(
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15)),
+                  elevation: 10,
+                  child: Container(
+                    width: width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        gradient: _general.backgroundColor),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Resume Tips',
+                              style: _general.cardHeading,
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'The most important document of our 4 years of engineering is our resume.',
+                                            style: _general.subHeading,
+                                          ),
+                                        )),
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'This section talks about spefiic details that should be looked upon while making a resume.',
+                                            style: _general.subHeading,
+                                          ),
+                                        ))
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: width / 3,
+                                  height: height / 3,
+                                  child: Image.asset(
+                                    'Assets/images/img5.png',
+                                    fit: BoxFit.fill,
+                                  ),
+                                )
+                              ],
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Card(
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(15)),
+                  elevation: 10,
+                  child: Container(
+                    width: width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(15),
+                        gradient: _general.backgroundColor),
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              'Youtube Channels',
+                              style: _general.cardHeading,
+                            ),
+                            SizedBox(
+                              height: 10,
+                            ),
+                            Row(
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Column(
+                                  children: [
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            'Quality>Quantity.',
+                                            style: _general.subHeading,
+                                          ),
+                                        )),
+                                    SizedBox(
+                                        width: width / 2,
+                                        child: Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text(
+                                            "That's why this section provides a list of best channels for roadmaps, free courses, and last minute help for your engineering subjects.",
+                                            style: _general.subHeading,
+                                          ),
+                                        ))
+                                  ],
+                                ),
+                                SizedBox(
+                                  width: width / 3,
+                                  height: height / 3,
+                                  child: Image.asset(
+                                    'Assets/images/img6.png',
+                                    fit: BoxFit.fill,
+                                  ),
+                                )
+                              ],
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
